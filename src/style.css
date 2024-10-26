@@ -1,7 +1,38 @@
 body {
     background: linear-gradient(270.25deg, #679856 3.56%, #988949 98.8%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-.body-paragraph{
-    color:#056536
+.main-name{
+    text-align: center;
+    margin:auto;
+    display: flex;
+    width: 50%;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: rgb(241, 250, 244);
+}
+.wrapper{
+    width: 500px;
+    margin:auto;
+    display: flex;
+}
+.text-rectangle{
+    background: hsl(102, 100%, 95%);
+    border-radius: 70px;
+    padding-top: 60px;
+    padding-left: 39%;
+    padding-bottom: 60px;
+    padding-right: 60px;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
 }
